@@ -1,0 +1,558 @@
+{"level":"info","message":"Server is running on port 5000"}
+{"level":"info","message":"Expression logged: 2+2"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"info","message":"Expression logged: 87+13"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"info","message":"Expression logged: 2+6"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"info","message":"Expression logged: 4*8"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Expression logged: 5-5"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Expression logged: 5*9"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Expression logged: 7+7"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"info","message":"Expression logged: 5/5"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error logging expression: CalculatorLog validation failed: output: Path `output` is required."}
+{"level":"error","message":"Error logging expression: CalculatorLog validation failed: output: Path `output` is required."}
+{"level":"info","message":"Expression logged: 12/12"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"info","message":"Expression logged: 3*3"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error logging expression: CalculatorLog validation failed: output: Path `output` is required."}
+{"level":"error","message":"Error logging expression: CalculatorLog validation failed: output: Path `output` is required."}
+{"level":"info","message":"Expression logged: 9*1"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error logging expression: CalculatorLog validation failed: output: Path `output` is required."}
+{"level":"error","message":"Error logging expression: CalculatorLog validation failed: output: Path `output` is required."}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 57*"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 5-5"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 4*7"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 4/"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 13+7"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 5*1"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 4*"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 6-3"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 3"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 3"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 3"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: log is not defined"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 36-"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 3"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 3"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"info","message":"Expression logged: 0"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: Cast to date failed for value \"Invalid Date\" (type Date) at path \"created_on\" for model \"CalculatorLog\""}
+{"level":"error","message":"Error fetching logs: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function limit"}
+{"level":"info","message":"Expression logged: 2+3"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
+{"level":"info","message":"Expression logged: 3+"}
+{"level":"error","message":"Error logging expression: Cannot read properties of undefined (reading 'emit')"}
