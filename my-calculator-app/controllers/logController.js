@@ -1,6 +1,6 @@
 const CalculatorLog = require('../models/calculatorLog');
 const logger = require('../utils/logger');
-const { io } = require('../app');
+const  io  = require('../app');
 
 exports.addLog = async (req, res) => {
     const { expression, is_valid, output } = req.body;
@@ -9,7 +9,9 @@ exports.addLog = async (req, res) => {
         logger.info('Empty expression provided');
         return res.status(400).send({ error: 'Expression is empty' });
     }
-
+     console.log(expression);
+     console.log(is_valid);
+     console.log(output);
     try {
         const log = await CalculatorLog.create({
             expression,
@@ -18,13 +20,15 @@ exports.addLog = async (req, res) => {
             created_on: new Date()
         });
         logger.info(`Expression logged: ${expression}`);
-
+        log.save();
         // Emit log event to WebSocket clients
-        io.emit('newLog', log);
+        // console.log(log)
+        // io.emit('log', log);
+        // console.log("by")
 
         res.status(201).send(log);
     } catch (error) {
-        logger.error(`Error logging expression: ${error.message}`);
+        logger.error(`Error logging expression: ${error}`);
         res.status(500).send({ error: 'Failed to log expression' });
     }
 };
@@ -73,5 +77,31 @@ exports.longPolling = async (req, res) => {
         }
     };
 
+//     getLogs();
+// };
+// exports.longPolling = async (req, res) => {
+//     const { lastLogTime } = req.query;
+
+//     const getLogs = async (attempts = 0) => {
+//         try {
+           
+//             const logs = await CalculatorLog.find().sort({ created_on: -1 }).limit(10);
+
+//             if (logs.length > 0) {
+//                 res.send(logs);
+//             } else {
+//                 if (attempts < 10) { // Try 10 times before giving up
+//                     setTimeout(() => getLogs(attempts + 1), 5000);
+//                 } else {
+//                     res.status(204).send(); // No Content
+//                 }
+//             }
+//         } catch (error) {
+//             logger.error(`Error fetching logs: ${error.message}`);
+//             res.status(500).send({ error: 'Failed to fetch logs' });
+//         }
+//     };
+
     getLogs();
 };
+

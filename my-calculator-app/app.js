@@ -40,4 +40,4 @@ connectDB().then(() => {
     });
 });
 
-module.exports = { io };
+module.exports =  io ;
