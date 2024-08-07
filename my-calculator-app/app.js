@@ -10,7 +10,7 @@ require('dotenv').config();
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server,{cors: {
-    origin: 'http://localhost:3000', // Update this to your frontend's URL
+    origin: 'https://rishikeshcalculator.netlify.app/', // Update this to your frontend's URL
     methods: ['GET', 'POST']
 }});
 
