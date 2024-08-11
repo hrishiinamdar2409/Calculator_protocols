@@ -1,29 +1,38 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import io from 'socket.io-client';
 import './Calculator.css';
 
+// Initialize socket connection
 const socket = io('http://localhost:5000');
 
 const CalculatorWebSocket = () => {
     const [result, setResult] = useState('');
     const [logs, setLogs] = useState([]);
 
+    // Handle initial logs (when component mounts)
+    const handleInitialLogs = useCallback((initialLogs) => {
+        setLogs(initialLogs);
+    }, []);
+
+    // Handle new logs broadcasted by the server
+    const handleNewLog = useCallback((newLog) => {
+        setLogs(prevLogs => [newLog, ...prevLogs]);
+    }, []);
+
     useEffect(() => {
-        socket.on('initialLogs', (initialLogs) => {
-            setLogs(initialLogs);
-        });
+        // Listen for the initial logs event
+        socket.on('initialLogs', handleInitialLogs);
+        // Listen for new log events from the server
+        socket.on('newLog', handleNewLog);
 
-        socket.on('newLog', (newLog) => {
-            setLogs(prevLogs => [newLog, ...prevLogs]);
-        });
-
+        // Request the initial logs when component mounts
         socket.emit('requestLogs');
 
         return () => {
-            socket.off('initialLogs');
-            socket.off('newLog');
+            socket.off('initialLogs', handleInitialLogs);
+            socket.off('newLog', handleNewLog);
         };
-    }, []);
+    }, [handleInitialLogs, handleNewLog]);
 
     const insertValue = (value) => setResult(result + value);
     const clearResult = () => setResult('');

@@ -1,17 +1,18 @@
 const CalculatorLog = require('../models/calculatorLog');
 const logger = require('../utils/logger');
 const  io  = require('../app');
+const { Readable } = require('stream');
+
 
 exports.addLog = async (req, res) => {
     const { expression, is_valid, output } = req.body;
+    const io = req.app.get('io');
 
     if (!expression) {
         logger.info('Empty expression provided');
         return res.status(400).send({ error: 'Expression is empty' });
     }
-     console.log(expression);
-     console.log(is_valid);
-     console.log(output);
+
     try {
         const log = await CalculatorLog.create({
             expression,
@@ -20,11 +21,9 @@ exports.addLog = async (req, res) => {
             created_on: new Date()
         });
         logger.info(`Expression logged: ${expression}`);
-        log.save();
-        // Emit log event to WebSocket clients
-        // console.log(log)
-        // io.emit('log', log);
-        // console.log("by")
+
+        // Emit the new log to all connected WebSocket clients
+        io.emit('newLog', log);
 
         res.status(201).send(log);
     } catch (error) {
@@ -62,46 +61,31 @@ exports.shortPolling = async (req, res) => {
 exports.longPolling = async (req, res) => {
     const { lastLogTime } = req.query;
 
-    const getLogs = async () => {
-        try {
-            const logs = await CalculatorLog.find().sort({ created_on: -1 }).limit(10);
+    // Set headers for streaming
+    res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Cache-Control', 'no-cache');
+    res.setHeader('Connection', 'keep-alive');
 
-            if (logs.length > 0) {
-                res.send(logs);
-            } else {
-                setTimeout(getLogs, 5000);
+    // Fetch and stream logs
+    const fetchLogs = async () => {
+        try {
+            let query = {};
+            if (lastLogTime) {
+                query = { _id: { $gt: lastLogTime } }; // Fetch logs after the last log time
             }
+
+            // Fetch only the latest 5 records in descending order
+            const logs = await CalculatorLog.find(query)
+                .sort({ _id: -1 }) // Sort in descending order to get the latest logs
+                .limit(5); // Fetch only the 5 latest records
+
+            // Reverse the order so that logs are sent in ascending order of time
+            res.json(logs.reverse()); 
         } catch (error) {
-            logger.error(`Error fetching logs: ${error.message}`);
+            console.error('Error fetching logs:', error);
             res.status(500).send({ error: 'Failed to fetch logs' });
         }
     };
 
-//     getLogs();
-// };
-// exports.longPolling = async (req, res) => {
-//     const { lastLogTime } = req.query;
-
-//     const getLogs = async (attempts = 0) => {
-//         try {
-           
-//             const logs = await CalculatorLog.find().sort({ created_on: -1 }).limit(10);
-
-//             if (logs.length > 0) {
-//                 res.send(logs);
-//             } else {
-//                 if (attempts < 10) { // Try 10 times before giving up
-//                     setTimeout(() => getLogs(attempts + 1), 5000);
-//                 } else {
-//                     res.status(204).send(); // No Content
-//                 }
-//             }
-//         } catch (error) {
-//             logger.error(`Error fetching logs: ${error.message}`);
-//             res.status(500).send({ error: 'Failed to fetch logs' });
-//         }
-//     };
-
-    getLogs();
+    fetchLogs();
 };
-

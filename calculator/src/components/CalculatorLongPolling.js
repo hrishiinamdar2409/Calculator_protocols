@@ -4,26 +4,39 @@ import './Calculator.css';
 const CalculatorLongPolling = () => {
     const [result, setResult] = useState('');
     const [logs, setLogs] = useState([]);
-    const [lastLogTime, setLastLogTime] = useState(null);
+    const [lastLogTime, setLastLogTime] = useState('');
+    const [counter, setCounter] = useState(0);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         const fetchLogs = async () => {
+            setLoading(true);
             try {
-                const response = await fetch(`http://localhost:5000/api/long-polling?lastLogTime=${lastLogTime}`);
+                const timestamp = new Date().getTime();
+                const response = await fetch(`http://localhost:5000/api/long-polling?lastLogTime=${lastLogTime}&_=${timestamp}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+
                 const data = await response.json();
                 if (data.length > 0) {
-                    setLogs(prevLogs => [...data, ...prevLogs]);
-                    setLastLogTime(data[0].created_on);
-                } else {
-                    setTimeout(fetchLogs, 5000);
+                    setLogs(data); // Set logs to the latest 5 logs
+                    setLastLogTime(data[data.length - 1]._id); // Update lastLogTime with the most recent log ID
+                    console.log('Fetched latest logs:', data);
                 }
             } catch (error) {
                 console.error('Error fetching logs:', error);
+            } finally {
+                setLoading(false);
             }
         };
 
-        fetchLogs();
-    }, [lastLogTime]);
+        // Fetch logs after every 5 successful evaluations
+        if (counter > 0 && counter % 5 === 0) {
+            console.log('Fetching logs after 5 successful evaluations');
+            fetchLogs();
+        }
+    }, [counter, lastLogTime]);
 
     const insertValue = (value) => setResult(result + value);
     const clearResult = () => setResult('');
@@ -34,7 +47,7 @@ const CalculatorLongPolling = () => {
         let isValid = true;
         let output;
         try {
-            output = eval(result);
+            output = new Function(`return ${result}`)();
             setResult(output.toString());
         } catch (e) {
             isValid = false;
@@ -42,11 +55,18 @@ const CalculatorLongPolling = () => {
             setResult('error');
         }
         try {
-            await fetch('http://localhost:5000/api/logs', {
+            const response = await fetch('http://localhost:5000/api/logs', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ expression: result, is_valid: isValid, output })
             });
+
+            if (!response.ok) {
+                throw new Error('Error logging expression');
+            }
+
+            setCounter((prevCounter) => prevCounter + 1); // Increment counter
+
         } catch (error) {
             console.error('Error logging expression:', error);
         }
@@ -83,6 +103,7 @@ const CalculatorLongPolling = () => {
             </div>
             <div className="logs">
                 <h2>Logs</h2>
+                {loading && <p>Loading logs...</p>}
                 <ul>
                     {logs.map((log, index) => (
                         <li key={index}>
@@ -97,3 +118,4 @@ const CalculatorLongPolling = () => {
 };
 
 export default CalculatorLongPolling;
+

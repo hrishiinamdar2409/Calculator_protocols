@@ -10,12 +10,14 @@ const CalculatorShortPolling = () => {
         const fetchLogs = async () => {
             try {
                 // console.log(lastLogTime);
+                console.log(lastLogTime);
                 
                 const response = await fetch(`http://localhost:5000/api/short-polling?lastLogTime=${lastLogTime}`);
+                //const response = await fetch(`https://calculator-protocols.onrender.com/api/short-polling?lastLogTime=${lastLogTime}`);
                 const data = await response.json();
                 if (data.length > 0) {
                     setLogs(prevLogs => [...data, ...prevLogs]);
-                    console.log(data[0].created_on);
+                    console.log(data[0]._id);
                     
                     setLastLogTime(data[0].created_on);
                 }
