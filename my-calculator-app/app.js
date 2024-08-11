@@ -8,12 +8,10 @@ const logger = require('./utils/logger');
 
 const app = express();
 const server = http.createServer(app);
-const io = socketIo(server, {
-    cors: {
-        origin: '*', // Allow requests from all origins
-        methods: ['GET', 'POST']
-    }
-});
+const io = socketIo(server,{cors: {
+    origin: 'http://localhost:3000', // Update this to your frontend's URL
+    methods: ['GET', 'POST']
+}});
 
 app.use(express.json());
 app.use(cors());
