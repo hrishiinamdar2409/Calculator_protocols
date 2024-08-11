@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import io from 'socket.io-client';
 import './Calculator.css';
 
-// Initialize socket connection
+//  socket connection
 const socket = io('http://localhost:5000');
 
 const CalculatorWebSocket = () => {
@@ -20,12 +20,12 @@ const CalculatorWebSocket = () => {
     }, []);
 
     useEffect(() => {
-        // Listen for the initial logs event
+        
         socket.on('initialLogs', handleInitialLogs);
-        // Listen for new log events from the server
+        
         socket.on('newLog', handleNewLog);
 
-        // Request the initial logs when component mounts
+        
         socket.emit('requestLogs');
 
         return () => {

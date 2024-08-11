@@ -71,15 +71,15 @@ exports.longPolling = async (req, res) => {
         try {
             let query = {};
             if (lastLogTime) {
-                query = { _id: { $gt: lastLogTime } }; // Fetch logs after the last log time
+                query = { _id: { $gt: lastLogTime } }; 
             }
 
-            // Fetch only the latest 5 records in descending order
+            
             const logs = await CalculatorLog.find(query)
                 .sort({ _id: -1 }) // Sort in descending order to get the latest logs
                 .limit(5); // Fetch only the 5 latest records
 
-            // Reverse the order so that logs are sent in ascending order of time
+            
             res.json(logs.reverse()); 
         } catch (error) {
             console.error('Error fetching logs:', error);

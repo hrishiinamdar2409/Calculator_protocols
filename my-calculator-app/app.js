@@ -9,7 +9,7 @@ const logger = require('./utils/logger');
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server,{cors: {
-    origin: 'http://localhost:3000', // Update this to your frontend's URL
+    origin: 'http://localhost:3000', 
     methods: ['GET', 'POST']
 }});
 
@@ -17,17 +17,16 @@ app.use(express.json());
 app.use(cors());
 app.use('/api', logRoutes);
 
-// Listen for client connections
+// here in this client is litening 
 io.on('connection', (socket) => {
     console.log('New client connected:', socket.id);
 
-    // Handle client disconnect
     socket.on('disconnect', () => {
         console.log('Client disconnected:', socket.id);
     });
 });
 
-// Make `io` accessible from other modules
+
 app.set('io', io);
 
 const PORT = process.env.PORT || 5000;

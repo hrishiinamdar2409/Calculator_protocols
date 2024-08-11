@@ -219,3 +219,15 @@
 {"level":"info","message":"Expression logged: 10/5"}
 {"level":"info","message":"Expression logged: 2/2"}
 {"level":"info","message":"Expression logged: 4*7"}
+{"level":"info","message":"Expression logged: 5*5"}
+{"level":"info","message":"Expression logged: 4*2"}
+{"level":"info","message":"Expression logged: 8*2"}
+{"level":"info","message":"Expression logged: 16/8"}
+{"level":"info","message":"Expression logged: 2*6"}
+{"level":"info","message":"Expression logged: 12/2"}
+{"level":"info","message":"Expression logged: 5*5"}
+{"level":"info","message":"Expression logged: 25/5"}
+{"level":"info","message":"Expression logged: 5*6"}
+{"level":"info","message":"Expression logged: 30/5"}
+{"level":"info","message":"Expression logged: 6*9"}
+{"level":"info","message":"Expression logged: 4-2"}
