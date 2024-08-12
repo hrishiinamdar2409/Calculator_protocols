@@ -231,3 +231,11 @@
 {"level":"info","message":"Expression logged: 30/5"}
 {"level":"info","message":"Expression logged: 6*9"}
 {"level":"info","message":"Expression logged: 4-2"}
+{"level":"info","message":"Expression logged: 5-5"}
+{"level":"info","message":"Expression logged: 0*9"}
+{"level":"info","message":"Expression logged: 08/2"}
+{"level":"info","message":"Expression logged: 4*9"}
+{"level":"info","message":"Expression logged: 36/9"}
+{"level":"info","message":"Expression logged: 8/1"}
+{"level":"info","message":"Expression logged: 8/2"}
+{"level":"info","message":"Expression logged: 5-2"}
