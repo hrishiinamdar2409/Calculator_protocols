@@ -13,7 +13,7 @@ const CalculatorLongPolling = () => {
             setLoading(true);
             try {
                 const timestamp = new Date().getTime();
-                const response = await fetch(`http://localhost:5000/api/long-polling?lastLogTime=${lastLogTime}&_=${timestamp}`);
+                const response = await fetch(`https://calculator-protocols.onrender.com/api/long-polling?lastLogTime=${lastLogTime}&_=${timestamp}`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
@@ -55,7 +55,7 @@ const CalculatorLongPolling = () => {
             setResult('error');
         }
         try {
-            const response = await fetch('http://localhost:5000/api/logs', {
+            const response = await fetch('https://calculator-protocols.onrender.com/api/logs', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ expression: result, is_valid: isValid, output })

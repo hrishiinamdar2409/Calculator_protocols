@@ -12,8 +12,8 @@ const CalculatorShortPolling = () => {
                 // console.log(lastLogTime);
                 console.log(lastLogTime);
                 
-                const response = await fetch(`http://localhost:5000/api/short-polling?lastLogTime=${lastLogTime}`);
-                //const response = await fetch(`https://calculator-protocols.onrender.com/api/short-polling?lastLogTime=${lastLogTime}`);
+               // const response = await fetch(`http://localhost:5000/api/short-polling?lastLogTime=${lastLogTime}`);
+                const response = await fetch(`https://calculator-protocols.onrender.com/api/short-polling?lastLogTime=${lastLogTime}`);
                 const data = await response.json();
                 if (data.length > 0) {
                     setLogs(prevLogs => [...data, ...prevLogs]);
@@ -48,7 +48,7 @@ const CalculatorShortPolling = () => {
             setResult('error');
         }
         try {
-            await fetch('http://localhost:5000/api/logs', {
+            await fetch('https://calculator-protocols.onrender.com/api/logs', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ expression: result, is_valid: isValid, output })
